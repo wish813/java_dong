@@ -43,7 +43,8 @@ public class Ex10 {
 			}{
 
 			}
-			int[] person = new int[5];
+			
+			person = new int[5];
 			person[0]= no;
 			person[1]= sum;
 			person[2]= avg;
@@ -64,13 +65,13 @@ public class Ex10 {
 			}
 		}
 		
-		int[] tmp = new int[5];
-		for (int i = 0; i < arr.length; i++) {
+		Object[] tmp = new Object[5];
+		for (int i = 0; i < Object.length; i++) {
 			for (int j = i+1; j < arr.length; j++) {
-				if (arr[i][4] > arr[j][4]) {
-					tmp=arr[i];
-					arr[i]=arr[j];
-					arr[j]=tmp;
+				if (Object[i][4] >Object[j][4]) {
+					tmp= Object[i];
+					Object[i]=Object[j];
+					Object[j]=tmp;
 				}
 			}
 		}
