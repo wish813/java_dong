@@ -34,7 +34,7 @@ public class Ex02 {
 				sb.append(msg + "\n");
 			}
 			
-			// System.out.println(sb.toString());
+			System.out.println(sb.toString());
 			fw = new FileWriter(file);
 			bw = new BufferedWriter(fw);
 			bw.write(sb.toString());
